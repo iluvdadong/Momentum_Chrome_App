@@ -6,6 +6,8 @@ const TODOS_LS = "toDos";
 
 const toDos = [];
 
+function deleteToDo(event)
+
 function saveToDos() {
   localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
 }
